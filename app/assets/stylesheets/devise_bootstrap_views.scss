@@ -1,0 +1,43 @@
+.float-none {
+  float: none;
+}
+
+.panel-heading {
+  padding: 15px;
+  h4 {
+    margin: 0px;
+  }
+}
+
+.content-wrapper {
+  display: inline-table;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  
+  .alert-messages {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+  
+  .content {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    
+    .new-session, .password-reset, .password-edit, .new-user, .edit-user, .mailer-confirm, .mailer-reset, .mailer-unlock, .confirmation {
+      display: block;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      margin: auto;
+    }
+  }
+}

@@ -1,0 +1,5 @@
+<div>
+  Hello <%= current_user.name %>!
+  <br />
+  <%= link_to t('.sign_out', default: 'Sign out'), destroy_user_session_path, method: :delete %>
+</div>
