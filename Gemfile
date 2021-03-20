@@ -37,7 +37,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'devise'
 gem 'devise-bootstrap-views'
-gem 'bootstrap-sass', '~> 3.3.6'
+gem 'bootstrap-sass', '~> 3.4.1'
 gem 'bootswatch-rails'
 gem 'font-awesome-sass', '~> 4.6.2'
 
